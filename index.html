@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxtics | Master the Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Top Notification -->
+    <div class="notification-bar">
+        NEW: Watch our latest YouTube video to understand <span>fractal flow</span>.
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar container">
+        <div class="nav-links">
+            <a href="pages/mentorship.html">Mentorship</a>
+            <a href="pages/education.html">Education</a>
+        </div>
+
+        <!-- Replacing Image Logo with abstract Typography + Icon logo -->
+        <a href="index.html" class="brand-logo">
+            <img src="assets/logo1.png" alt="Fluxtics Logo" style="height: 80px;">
+        </a>
+
+        <div class="nav-links">
+            <a href="pages/mentorship.html" style="color:var(--primary-color);">Start Your Journey</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+        <div class="hero-content">
+            <h1>Master The Market</h1>
+            <p>Cut through the noise with a simple, repeatable trading system built around how the markets actually
+                reverse. Our private trading model, now available to the world.</p>
+
+            <div class="hero-actions">
+                <a href="pages/mentorship.html" class="btn-primary">Explore Mentorship <i data-lucide="arrow-right"
+                        style="width:18px;height:18px;margin-left:8px;"></i></a>
+                <a href="#features" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Replacing image asset with abstract animated CSS chart graphic -->
+        <div class="hero-abstract">
+            <!-- These bars animate upwards sequentially via pure CSS -->
+            <div class="chart-bar"></div>
+            <div class="chart-bar"></div>
+            <div class="chart-bar"></div>
+            <div class="chart-bar"></div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2>Why Join <span style="color:var(--primary-color);">Fluxtics?</span></h2>
+            <p style="color:var(--text-muted); font-size:1.1rem; max-width:600px; margin-top: 1rem;">The environment
+                designed specifically for serious traders looking for systematic edge.</p>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <a href="pages/mentorship.html" class="feature-card">
+                    <i data-lucide="target" class="feature-icon"></i>
+                    <h3>Elite Mentorship</h3>
+                    <p>Join an exclusive community of traders mastering edge. Focus specifically on setups that trigger
+                        high-probability reversals and expansions across all markets.</p>
+                </a>
+
+                <!-- Feature 2 -->
+                <a href="pages/education.html" class="feature-card">
+                    <i data-lucide="book-open" class="feature-icon"></i>
+                    <h3>Advanced Education</h3>
+                    <p>Gain instant access to our comprehensive curriculum spanning over 70 structured course lessons.
+                        Built perfectly for any skill level, from basics to expert theory.</p>
+                </a>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <i data-lucide="video" class="feature-icon"></i>
+                    <h3>Live Sessions</h3>
+                    <p>Watch through saved recordings of past livestreams, market reviews, live commentaries, and active
+                        backtesting sessions. Over 300+ hours logged.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <i data-lucide="line-chart" class="feature-icon"></i>
+                    <h3>Real Results</h3>
+                    <p>We do not just talk. Our members regularly pass evaluations, earn massive payouts, and scale
+                        capital sustainably using our fractal models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container newsletter-container">
+            <div class="newsletter-text">
+                <h2>Alpha Insights.<br>Weekly.</h2>
+                <p style="color:var(--text-muted); margin-top:1rem; font-size:1.1rem;">Join thousands of traders
+                    improving their bias daily by subscribing to our exclusive mailing list.</p>
+            </div>
+            <div class="newsletter-form-container">
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed');">
+                    <input type="email" placeholder="Enter your email address..." required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clean Footer -->
+    <footer class="footer">
+        <div class="footer-grid container">
+            <!-- Branding Column replacing image -->
+            <div class="footer-col">
+                <a href="index.html" class="brand-logo" style="margin-bottom: 2rem;">
+                    <img src="assets/logo2.png" alt="Fluxtics Logo" style="height: 60px;">
+                </a>
+                <p style="color:var(--text-muted); margin-bottom: 2rem; padding-right:2rem;">Trade Through The Lens.
+                    Experience the absolute standard of systematic trading education and mentorship.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>PLATFORM</h4>
+                <a href="index.html">Home</a>
+                <a href="pages/mentorship.html">Mentorship</a>
+                <a href="pages/education.html">Education</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>LEGAL</h4>
+                <a href="pages/terms.html">Terms of Service</a>
+                <a href="pages/privacy.html">Privacy Policy</a>
+                <a href="pages/disclaimer.html">Earnings Disclaimer</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>SOCIAL</h4>
+                <a href="#">X (Twitter)</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+                <a href="#">Discord</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <span>&copy; 2026 Fluxtics.com. All Rights Reserved.</span>
+            <span>Designed for Edge.</span>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
